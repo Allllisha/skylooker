@@ -19,12 +19,12 @@ const Search: React.FC<Props> = (props) => {
 
   return (
     <div className="seatch-container">
-    <Form className="search" onSubmit={callSearchFunction}>
-      <input ref={textInputRef} type="text" />
-      <Button variant="primary" type="submit">
-        Search
-      </Button>
-    </Form>
+      <Form className="search" onSubmit={callSearchFunction}>
+        <input ref={textInputRef} type="text" placeholder="Search Place..." />
+        <Button variant="primary" type="submit">
+          Search
+        </Button>
+      </Form>
     </div>
   );
 };

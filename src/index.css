@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(250,250,250);
+  background-image: url("./image/137261.jpg");
+  background-repeat: repeat;
   color: rgb(40,40,40);
 }
   body, h1, h2, h3, p {
