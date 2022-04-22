@@ -30,4 +30,4 @@ Skylooker is a very simple weather searching app. User can search with the name 
 # デプロイ
 
 Heroku
-
+https://skylooker.herokuapp.com/
