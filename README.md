@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Skylooker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+知りたい地域の天気を検索すると今の天気予報と３時間ごとの５日分の天気予報を見ることができる、とてもシンプルなアプリです。
 
-## Available Scripts
+Skylooker is a very simple weather searching app. User can search with the name of cities and they will be able to know the current weather and each 3hours weather estimations for 5days from today.  
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/90506535/164604743-aa3e8655-f514-491e-9cfc-e96e8870fd42.png)
 
-### `npm start`
+# 使用技術
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+【Frontend】
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+<li>React 18.0.0</li>
+<li>typescript 4.6.3</li>
+<li>axios 0.26.1</li>
+<li>node-sass 7.0.1</li>
+<li>react-bootstrap 2.2.3</li>
+<li>moment.js</li>
+<li>Opentheweather API</li>
+</ul>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 機能一覧
 
-### `npm run build`
+<ul>
+<li>Search functions (Opentheweather API)</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 使用技術
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Heroku
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
