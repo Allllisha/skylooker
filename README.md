@@ -27,7 +27,7 @@ Skylooker is a very simple weather searching app. User can search with the name 
 <li>Search functions (Opentheweather API)</li>
 </ul>
 
-# 使用技術
+# デプロイ
 
 Heroku
 
