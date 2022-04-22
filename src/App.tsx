@@ -17,9 +17,9 @@ function App() {
   const [degree, setDegrees] = useState<Partial<Main>>({})
   const [city, setCity] = useState<Partial<City>>({})
   const search = async (searchValue: string) => {
-    const res = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${searchValue}&units=metric&appid=18aa05ab051f4acc8345aeeb8a4acf3b`);
+    const res = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${searchValue}&units=metric&appid=${process.env.REACT_APP_WEATHER}`);
     setWeathers(res.data.list);
-    const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=18aa05ab051f4acc8345aeeb8a4acf3b`);
+    const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=${process.env.REACT_APP_WEATHER}`);
     setForcasts(response.data.weather);
     setDegrees(response.data.main);
     setCity(response.data)
